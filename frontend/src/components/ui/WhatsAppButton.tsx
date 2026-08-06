@@ -1,0 +1,1 @@
+export { WhatsAppChatbot, WhatsAppButton } from "./WhatsAppChatbot";

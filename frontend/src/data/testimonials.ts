@@ -1,0 +1,48 @@
+import { Testimonial } from "@/types/product";
+
+export const TESTIMONIALS: Testimonial[] = [
+  {
+    id: "t-01",
+    clientName: "Countess Victoria von Bernstorff",
+    role: "Patron & Philanthropist",
+    location: "Zurich, Switzerland",
+    quote: "AURA crafted my gala gown for the Venice Biennale. The bespoke fitting session, attention to silk weight, and gold threadwork were nothing short of breathtaking. It felt like wearing museum-grade art.",
+    rating: 5,
+    avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
+    verifiedPurchase: true,
+    date: "July 2026",
+  },
+  {
+    id: "t-02",
+    clientName: "Ananya Singhania",
+    role: "Bride & Creative Director",
+    location: "Mumbai & London",
+    quote: "Finding a bridal lehenga that strikes the balance between heritage Zardozi craftsmanship and modern minimal elegance seemed impossible until I met the lead master tailor at AURA Atelier. Absolute perfection.",
+    rating: 5,
+    avatar: "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=400&auto=format&fit=crop",
+    verifiedPurchase: true,
+    date: "June 2026",
+  },
+  {
+    id: "t-03",
+    clientName: "Camille Dupont",
+    role: "Fashion Editor, L'Officiel",
+    location: "Paris, France",
+    quote: "AURA brings back the true spirit of haute couture. Their cashmere outerwear and silk duster silhouette are staples in my wardrobe during Paris Fashion Week.",
+    rating: 5,
+    avatar: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=400&auto=format&fit=crop",
+    verifiedPurchase: true,
+    date: "May 2026",
+  },
+  {
+    id: "t-04",
+    clientName: "Dr. Evelyn Thorne",
+    role: "Art Curator",
+    location: "New York City",
+    quote: "The online WhatsApp concierge experience felt as personal and attentive as visiting a private studio on Avenue Montaigne. The packaging, garment bag, and personalized letter were exquisite touchpoints.",
+    rating: 5,
+    avatar: "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=400&auto=format&fit=crop",
+    verifiedPurchase: true,
+    date: "April 2026",
+  },
+];
